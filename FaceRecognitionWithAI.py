@@ -100,9 +100,9 @@ def faceDetection(images, photoPath):
 
 
 def main(): #Main Function
-    path = "C://Users//David//Desktop//FotosAI"
+    path = "Your Folder Path with the photos" #All photos must be jpeg
     images=imageStrings(path)
-    photoPath="Angela.jpeg"
+    photoPath="Photo to compare with the others.jpeg"
     print(faceDetection(images,photoPath))
     
 
